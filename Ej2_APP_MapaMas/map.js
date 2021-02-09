@@ -99,7 +99,7 @@ require([
              * Step: Add a legend once all layers have been added to the map
             */
 
-           mapMain.on("layers-add-result", funtion() {
+           mapMain.on("layers-add-result", function() {
                 var dijitLegend = new Legend({
                     map: mapMain,
                     arrangement: Legend.ALIGN_RIGHT 
@@ -107,8 +107,6 @@ require([
                 dijitLegend.startup ();               
              }); 
              
-             // stub
-
-             
+             // stub             
         });
     });
